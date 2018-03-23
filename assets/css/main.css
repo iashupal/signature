@@ -1,0 +1,2237 @@
+body, html {
+    float: left;
+width: 100%;
+height: 100%;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* body{
+    overflow-x: hidden;
+    overflow-y: auto;
+} */
+
+#container{
+    width: 100%;
+    overflow: hidden;
+}
+#container .banner{
+    width: 100%;
+    position: relative;
+}
+#container .banner .banner-img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#container .banner .banner-last-img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.banner .sign-main-img{
+    display: none;
+}
+header{
+    width: 100%;
+    z-index: 90;
+}
+header .header-inner{
+    margin: 0;
+}
+
+ header .logo-img{
+   max-width: 150px;
+    z-index: auto;
+    margin-left: 68px;
+    margin-top: 50px;
+    
+}
+header .navbody{
+    margin: 0px;
+    padding-left: 28%;
+    list-style: none;
+    position: absolute;
+}
+header .navbody li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    margin: 20px 10px;
+    font-size: 12px;
+}
+header .navbody li a{
+    text-decoration: none;
+    color: white;
+}
+header #mob-nav-bar{
+    position: relative;
+    display: none;
+}
+header #mob-nav-bar #menu{
+cursor: pointer;
+    position: absolute;
+    right: 50px;
+    margin-top: 3%;
+}
+#menu span{
+    margin: 14px 0px;
+    display: block;
+    width: 45px;
+    border: 1px solid white;
+}
+.banner .travel-info .travel-data{
+    /* display: inline-block; */
+    width: 100%;
+    color: white;
+    padding-top: 22%;
+    padding-left: 10%;
+    font-family: 'Playfair Display', serif;
+}
+.banner .travel-info{
+    margin: 0px;
+}
+.travel-data .travel-para{
+    font-size: 16px;
+    letter-spacing: 0.10em;
+}
+.travel-data .travel-h3{
+    font-size: 54px;
+    margin-top: 10px;
+}
+.travel-input:focus{
+    outline: 0;
+}
+.travel-data .travel-btn{
+    border: 2px solid white;
+    font-size: 12px;
+    background: none;
+    padding: 10px 40px;
+    margin-top: 30px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    /* margin-bottom: 65px; */
+    letter-spacing: 0.08em;
+}
+.travel-btn:focus{
+    outline: 0;
+}
+.travel-data .travel-go-img{
+    width: 140px;
+    /* height: 100px; */
+    padding-left: 35px;
+    margin: auto;
+    /* padding-top: 114px; */
+    margin-top: 10%;
+}
+
+.travel-sign-form{
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 15%;
+    bottom: 0;
+}
+
+.travel-info .travel-form{
+    width: 100%;
+    background-color: white;
+    padding: 40px 45px 0;
+    /* margin-right: 10%; */
+    /* margin-top: 20%; */
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+.travel-form .travel-form-div{
+    /* color: #a3a3a3; */
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+} 
+
+
+.travel-form .travel-form-div .travel-label{
+    font-weight: 300;
+}
+.travel-form .travel-form-div .travel-input{
+    border: none;
+    border-bottom: 1px solid #ededed;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaaaaa;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    letter-spacing: 0.05em;
+    /* font-family: 'Playfair Display'; */
+}
+
+/* div */
+.curated-experiences-section {
+    float: left;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align:center;
+}
+
+
+
+.travel-sign-form .travel-btn-div{
+    width: 100%;
+}
+
+.travel-asian hr ,.travel-spain hr, .travel-peru hr{
+    
+    width: 4%;
+    border-width: 1px;
+    border-color: #4593d6;
+    margin-right: 43%;
+    /* top: 3%; */
+    /* margin-top: 35px; */
+}
+.travel-sign-form .travel-btn-div .travel-button{
+    width: 100%;
+    background-color: #4fa3eb;
+    border: none;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    padding: 20px 10px;
+}
+.travel-data .travel-para2{
+    letter-spacing: 0em;
+}
+.sign-circle {
+    display: inline-block;
+    z-index: 9;
+    position: absolute;
+    right: -30px;
+    bottom: -28px;
+}
+.travel-asian{
+    float: left;
+width: 100%;
+/* margin-top: 50px; */
+margin-bottom: 20px;
+text-align:center;
+}
+.travel-asian h1{
+    padding-top: 0;
+position: relative;
+display: inline-block;
+z-index: 9;
+font-family: 'Playfair Display';
+    color: #252525;
+}
+.travel-asian h1::before{
+    /* position: absolute; */
+content: 'Asian';
+color: #f6f7fb;
+left: 150px;
+font-size: 112px;
+z-index: 1;
+margin-right: -145px;
+font-family: 'Playfair Display';
+
+}
+
+.travel-asian h1::after{
+    
+    content: '';
+background: url("../images/icon3.png");
+width: 60px;
+height: 40px;
+display: inline-block;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+position: absolute;
+/* left: -80px; */
+top: 69px;
+margin-left: 35px;
+}
+
+.travel-spain{
+    float: left;
+width: 100%;
+margin-top: 112px;
+margin-bottom: 50px;
+text-align:center;
+}
+.travel-spain h1{
+    padding-top: 0;
+position: relative;
+display: inline-block;
+z-index: 1;
+font-family: 'Playfair Display';
+    color: #252525;
+}
+.travel-spain h1::before{
+    content: '';
+    background: url("../images/icon1.png");
+    width: 60px;
+    height: 74px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    /* left: -80px; */
+    top: 69px;
+    /* margin-left: 35px; */
+    left: -80px;
+    top: -22px;
+}
+.travel-spain h1::after{
+     position: absolute;
+content: 'Paradise';
+color: #f6f7fb;
+left: 49%;
+top: -71px;
+    bottom: 0;
+    font-size: 110px;
+
+z-index:-1;
+/* margin-right: -145px; */
+font-family: 'Playfair Display';
+}
+.travel-peru{
+    float: left;
+width: 100%;
+margin-top: 70px;
+/* margin-bottom: 50px; */
+text-align:center;
+}
+.travel-peru h1{
+    padding-top: 0;
+position: relative;
+display: inline-block;
+z-index: 1;
+font-family: 'Playfair Display';
+    color: #252525;
+}
+.travel-peru h1::before{
+    content: '';
+    background: url("../images/icon2.png");
+    width: 60px;
+    height: 74px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    /* left: -80px; */
+    top: 69px;
+    /* margin-left: 35px; */
+    left: -80px;
+    top: -22px;
+}
+.travel-peru h1::after{
+     position: absolute;
+content: 'Immemorial';
+color: #f6f7fb;
+left: 49%;
+top: -71px;
+    bottom: 0;
+    font-size: 110px;
+
+z-index:-1;
+/* margin-right: -145px; */
+font-family: 'Playfair Display';
+}
+.travel-japan-info hr{
+    
+   
+    border-width: 1px;
+    border-color: #4593d6;
+    width: 15%;
+    
+}
+.travel-peru{
+    padding: 3% 8%;
+}
+ .travel-asian .travel-span-asian{
+    font-size: 112px;
+    color: #f6f7fb;
+    position: relative;
+    padding-left: 15%;
+}
+  
+.spain-right-icon{
+    color: white;
+    padding: 20px;
+    z-index: 100;
+    bottom: 0px;
+    font-size: 10px;
+    /* right: 0; */
+    position: absolute;
+    display: inline-block;
+    background-color: #4593d6;
+}
+.spain-left-icon{
+    position: absolute;
+    padding: 20px;
+    font-size: 10px;
+    float: right;
+    left: 49px;
+    /* right: 53px; */
+    box-shadow: 0px 0px 36px #c0cdd3;
+}
+ .travel-asian .travel-icon-asian{
+    margin-left: 35%;
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    margin-top: 72px;
+    display: inline-block;
+
+}
+.travel-asian::after{
+    /* position: absolute; */
+    width: 6%;
+    background-color: #4593d6;
+    height: 2px;
+    margin-left: 50%;
+    margin-top: 11%;
+} 
+.travel-spain::after{
+    width: 6%;
+    margin-left: 47%;
+}
+.travel-peru::after{
+    width: 5%;
+    margin-left: 39%;
+    margin-top: 12%;
+}
+
+#travel-home{
+    width: 100%;
+    /* height: 630px; */
+    /* margin: 15% 3% 0%;  */
+}
+#travel-home .travel-slider-div{
+    margin: 0;
+    width: 100%;
+}
+#travel-home .japan-para-info{
+    /* width: 100%;
+    height: 100%; */
+    display: table;
+}
+#travel-home .japan-para-info .travel-japan-info{
+    display: table-cell;
+    vertical-align: middle;
+    width: 85%;
+    text-align: center;
+   
+    position: absolute;
+    text-align: center;
+    padding: 37% 6% 28% 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+#travel-home .japan-para-info .travel-japan-info .travel-japan-para{
+    font-style: italic;
+}
+p.travel-japan-para::after{
+    /* position: absolute; */
+    width: 4%;
+    background-color: #4593d6;
+    height: 2px;
+    margin-left: 20%;
+    margin-top: 12%;
+}
+.travel-japan-info .japan-info-btn{
+    background-color: #ffffff;
+    border: transparent;
+    color: #4593d6;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin-top: 24px;
+    box-shadow: 0px 0px 36px #c0cdd3;
+    padding: 10px 15px;
+    /* width: 100px; */
+}
+.japan-info-btn:focus{
+    outline: 0;
+}
+.japan-right-icon{
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    z-index: 100;
+    bottom: 0px;
+    right: 0;
+    
+    position: absolute;
+    display: inline-block;
+    background-color: #4593d6;
+}
+.japan-left-icon{
+    position: absolute;
+    padding: 20px;
+    float: right;
+    font-size: 10px;
+    right: 48px;
+    box-shadow: 0px 0px 36px #c0cdd3;
+}
+.travel-slider-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    top: 5px;
+    left: 22%;
+    /* text-align: center; */
+    color: #ffffff;
+    display: inline-block;
+}
+
+.travel-spain .travel-icon-spain{
+    width: 80px;
+    height: 90px;
+    margin-left: 15%;
+    margin-top: -49px;
+}
+.travel-asian .travel-h4-love{
+    margin-left: 1%;
+    margin-top: 75px;
+}
+.travel-asian .travel-span-paradise{
+    /* position: relative; */
+    padding-left: 23%;
+    font-size: 100px;
+    color: #f6f7fb;
+}
+
+.japan-para-info .travel-spain-info{
+    padding: 28% 0% 28% 13% !important;
+}
+.travel-spain .travel-icon-peru{
+    width: 80px;
+    /* height: 90px; */
+    margin-left: 14%;
+    margin-top: -87px;
+}
+.travel-asian .travel-h4-peru{
+    font-size: 33px;
+    margin-left: 3%;
+    margin-top: 84px;
+    display: inline-block;
+}
+.travel-slider-data{
+    font-size: 116px;
+}
+.japan-para-info .travel-peru-info{
+    padding: 28% 16% 28% 2% !important;
+}
+
+.banner2{
+    margin-top: 8%;
+    width: 100%;
+    /* height: 100%; */
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("../images/banner2.jpg");
+}
+/* 2nd banner */
+.banner2 .travel-banner2{
+    margin: 0px;
+}
+ .travel-banner2-go{
+    margin-top: 25%;
+    margin-left: 40%;
+    position: absolute;
+}
+ .travel-banner2-go .travel-banner2-img{
+    width: 300px;
+    height: 300px;
+}
+ .travel-banner2-info{
+    margin-top: 30%;
+}
+.travel-banner2-info .travel-banner2-h4{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+    font-weight: 400;
+
+}
+.travel-banner2-info .travel-banner2-para{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.travel-banner2-info .travel-btn{
+    border: 2px solid white;
+    font-size: 12px;
+    background: none;
+    padding: 10px 40px;
+    margin-top: 30px;
+    display: block;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+}
+footer{
+    margin: 5% 0;
+    width: 100%;
+}
+footer .travel-footer-div{
+    padding: 10px;
+    text-align: center;
+}
+footer .travel-footer-div .footer-para{
+    display: inline;
+    color: #7d7d7d;
+    padding: 0 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.travel-footer-div .footer-para:hover{
+color: #4593d6;
+}
+ /* .footer-fb2{
+    display: none !important;
+}
+ .footer-insta{
+    display: none !important;
+}
+ .footer-linked{
+    display: none !important;
+} */
+/* .travel-footer-div .footer-service{
+    color: #4593d6 !important;
+} */
+.footer-img{
+    padding: 0 40px !important;
+}
+.travel-footer-div .footer-botm-para{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+}
+.travel-footer-div .travel-botm-footer{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7d7d7d;
+    font-style: italic;
+}
+
+/* Responsive code */
+/* 1200 
+1024
+ 992
+ 767
+ 640
+ 480
+ 320 */
+
+ /* 1200px css code */
+
+@media screen and (max-width: 1200px){
+
+    header .navbody {
+        margin: 0px;
+        padding-left: 18%;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    header .navbody li{
+        font-size: 11px;
+    }
+    .travel-sign-form{
+        width: 55%;
+    }
+    .travel-asian::after{
+        margin-left: 48%;
+    }
+    .travel-asian{
+        padding: 3% 16%;
+    }
+    .travel-peru {
+        padding: 3% 8%;
+    }
+    .travel-peru h1:after{
+        left: 39%;
+    }
+ 
+    .travel-asian .travel-icon-asian{
+        margin-left: 37%;
+    }
+    /* #travel-home{
+        height: 560px;
+    } */
+    #container .travel-peru{
+        width: 100%;
+        padding-left: 12%;
+        /* margin-top: 5%; */
+    }
+    .travel-asian .travel-h4-peru{
+        font-size: 27px;
+    }
+    .travel-asian .travel-h4-peru{
+        margin-top: 66px;
+    }
+    .travel-asian .travel-span-immtl{
+        font-size: 85px;
+    }
+    .travel-banner2-info .travel-banner2-h4{
+        font-size: 26px;
+    }
+}
+
+/* 1024px css code */
+@media screen and (max-width:1199px) and (min-width:1024px){
+    header .navbody li{
+       font-size: 9px;
+   }
+   .travel-sign-form{
+       width: 65%;
+   }
+   .travel-data .travel-h3{
+       font-size: 44px;
+   }
+   .travel-data .travel-go-img{
+       margin-top: 20%;
+       padding-left: 25px;
+   }
+   .travel-asian::after{
+       margin-top: 15%;   
+       margin-left: 55%; 
+   }
+   .travel-asian .travel-icon-asian{
+       margin-left: 30%;
+   }
+   .travel-asian .travel-h4-asian{
+       margin-left: -17%;
+   }
+   .travel-asian .travel-h4-love{
+       margin-left: 0%;
+   }
+   .travel-asian{
+       padding: 3% 10%;
+   }
+   .travel-spain{
+       padding: 3% 10%;
+   }
+   .travel-spain .travel-icon-spain{
+       margin-left: 25%;
+   }
+   #travel-home{
+       height: 480px;
+   }
+   .travel-asian .travel-span-asian{
+       font-size: 104px;
+   }
+   .travel-asian .travel-h4-asian{
+       font-size: 30px;
+   }
+   #container .travel-peru{
+       margin-top: 10%;
+
+   }
+   .travel-spain .travel-icon-peru{
+    width: 80px;
+    height: 90px;
+    margin-left: 8%;
+   }
+   .travel-asian .travel-h4-peru{
+       margin-left: 6%;
+              margin-top: 73px;
+              font-size: 23px;
+   }
+   .japan-para-info .travel-spain-info{
+       padding: 22% 0% 28% 13% !important;
+   }
+   .travel-asian .travel-span-paradise{
+      font-size:  86px;
+      padding-left: 16%;
+   }
+.travel-spain::after{
+    margin-top: 18%;
+}
+.travel-peru::after{
+    margin-left: 47%;
+}
+#travel-home .japan-para-info .travel-japan-info{
+    width: 95%;
+    font-size: 14px;
+}
+   .travel-banner2-go{
+       margin-left: 30%;
+       margin-top: 30%;
+   }
+   .travel-banner2-info{
+       margin-top: 35%;
+   }
+   .travel-banner2-info .travel-banner2-h4{
+       font-size: 23px;
+   } 
+
+} 
+
+/* 992px css code */
+@media screen and (max-width:1023px) and (min-width:992px){
+    header .navbody li{
+       font-size: 9px;
+   }
+   header .navbody{
+       padding-left: 14%;
+   }
+   header .navbody li{
+       padding: 20px 0px;
+   }
+   .travel-sign-form{
+       width: 65%;
+       /* margin-top: 13%; */
+   }
+   .travel-data .travel-h3{
+       font-size: 44px;
+   }
+   .travel-data .travel-go-img{
+       margin-top: 10%;
+   }
+   #travel-home .japan-para-info .travel-japan-info{
+       padding: 22% 6% 28% 2%;
+       font-size: 14px;
+   }
+   .travel-asian::after{
+       margin-top: 15%;   
+       margin-left: 63%; 
+   }
+   .travel-spain::after{
+       margin-left: 47%;
+       margin-top: 19%;
+   }
+   .travel-peru::after{
+    margin-left: 43%;
+    margin-top: 18%;
+   }
+   .travel-asian .travel-icon-asian{
+       margin-left: 40%;
+   }
+   .japan-para-info .travel-spain-info{
+       padding: 12% 0% 0% 14% !important;
+   }
+   #travel-home{
+       height: 480px;
+   }
+   .travel-asian .travel-span-asian{
+       font-size: 104px;
+   }
+   .travel-asian .travel-h4-asian{
+       font-size: 30px;
+       /* margin-top: 86px; */
+   }
+   #container .travel-peru{
+       margin-top: 10%;
+       /* padding: 3% 10%; */
+   }
+   .travel-peru h1:after{
+       font-size: 87px;
+       top: -51px;
+   }
+   .travel-slider-text{
+       left: 20%;
+   }
+   .travel-spain .travel-icon-peru{
+    width: 80px;
+    height: 90px;
+    margin-left: 6%;
+    margin-top: -69px;
+   }
+   .travel-asian .travel-h4-love{
+       margin-top: 61px;
+   }
+   .travel-asian .travel-h4-peru{
+       margin-left: 6%;
+              margin-top: 73px;
+              font-size: 23px;
+   }
+   .travel-asian .travel-span-paradise{
+      font-size:  82px;
+      padding-left: 22%;
+   }
+   #container .banner2{
+       margin-top: 8%;
+   }
+
+   .travel-banner2-go{
+       margin-left: 30%;
+       margin-top: 30%;
+   }
+   .travel-banner2-info{
+       margin-top: 37%;
+   }
+   .travel-banner2-info .travel-banner2-h4{
+       font-size: 22px;
+   } 
+   
+   .travel-banner2-info .travel-banner2-para{
+       font-size: 16px;
+   }
+   .travel-banner2-info .travel-btn{
+       font-size: 12px;
+       padding: 15px 50px;
+   }
+
+} 
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    header #navigation_bar {
+      display: none;
+  }
+  header #mob-nav-bar{
+      display: block;
+  }
+  header #mob-nav-bar #menu{
+      margin-top: 5%;
+  }
+  #menu span{
+      margin: 10px 0;
+  }
+  .travel-sign-form{
+      width: 75%;
+  }
+  header .logo-img{
+      margin-left: 30px;
+  }
+  .travel-asian{
+      padding: 3% 0%;
+  }
+  .travel-data .travel-go-img{
+      margin-top: 34%;
+  }
+  .travel-data .travel-para{
+      font-size: 14px;
+  }
+  .travel-spain .travel-icon-spain{
+      margin-left: 28%;
+      margin-top: -28px;
+  }
+  .travel-data .travel-h3{
+      font-size: 33px;
+  }
+  .travel-spain::after{
+      margin-left: 52% !important;
+  }
+  .travel-data .travel-btn{
+      margin-top: 50px;
+  }
+  .travel-asian .travel-span-asian{
+      font-size: 103px;
+  }
+  .travel-asian .travel-h4-asian{
+      font-size: 28px;
+      margin-left: -21%;
+  }
+
+  /* .travel-spain .travel-icon-spain{
+      margin-top: -24px;
+  } */
+
+  .travel-asian .travel-icon-asian{
+      margin-left: 25%;
+      /* display: none; */
+  }
+  .travel-asian::after {
+    margin-left: 49%;
+    margin-top: 19%;
+    width: 6%;
+  }
+  /* .travel-spain .travel-icon-spain{
+      display: none;
+  } */
+  #travel-home{
+      height: 385px;
+  }
+  .travel-asian .travel-h4-love{
+      font-size: 24px;
+      margin-left: 0%;
+  }
+  .travel-peru::after{
+      margin-left: 42% !important;
+  }
+  .travel-asian .travel-span-paradise{
+      padding-left: 14%;
+      font-size: 80px;
+  }
+  .travel-asian .travel-span-immtl{
+      font-size: 68px;
+      padding-left: 28%;
+  }
+  /* #travel-home{
+      margin: 28% 3% 0%;
+  } */
+  /* .travel-data .travel-go-img{
+      margin-top: 49%;
+  } */
+  #travel-home .japan-para-info .travel-japan-info{
+      padding: 10% 4% 28% 2%;
+      font-size: 12px;
+  }
+  .travel-spain h1:after{
+      font-size: 90px;
+      left: 44%;
+      top: -53px;
+  }
+
+  
+  .travel-asian .travel-h4-peru{
+    font-size: 22px;
+    margin-left: 6%;
+    margin-top: 66px;
+    width: 60%;
+  }
+  .travel-spain .travel-icon-peru{
+      margin-left: 0%;
+      margin-top: -64px;
+  }
+  /* .travel-spain .travel-icon-peru{
+      margin: 0;
+      padding: 0;
+  } */
+  #container .travel-peru{
+      margin-top: 10%;
+      padding-left: 8%;
+  }
+  .travel-peru h1:before{
+      left: 0px;
+      margin-left: -69px;
+  }
+  .travel-peru h1{
+      font-size: 30px;
+  }
+  .travel-peru h1:after{
+      font-size: 75px;
+      top: -42px;
+  }
+  .japan-para-info .travel-spain-info{
+      padding: 3% 0% 48% 5% !important;
+  }
+
+  .travel-peru::after{
+      margin-top: 18%;
+  }
+  .japan-para-info .travel-peru-info{
+      padding: 6% 16% 2% 2% !important;
+  }
+  .travel-banner2-go{
+      margin-left: 30%;
+      margin-top: 50%;
+  }
+  .travel-banner2-go .travel-banner2-img{
+      width: 220px;
+      height: 220px;
+  }
+  .travel-banner2-info .travel-banner2-h4{
+      font-size: 18px;
+  }
+  .travel-banner2-info{
+      margin-top: 56%;
+  }
+  .travel-banner2-info .travel-banner2-para{
+      font-size: 16px;
+  }
+  .travel-slider-text{
+      left: 17%;
+      font-size: 110px;
+  }
+  footer .travel-footer-div .footer-para{
+      padding: 0 10px;
+  }
+  } 
+  
+  /* 640px css code */
+  @media screen and (max-width: 767px) and (min-width: 640px){
+    header #navigation_bar {
+        display: none;
+    }
+    header .navbody {
+        display: none;
+    }
+    header #mob-nav-bar{
+        display: block;
+    }
+    header #mob-nav-bar #menu{
+        margin-top: -10%;
+    }
+    #menu span{
+        margin: 8px 0;
+        width: 40px;
+    }
+    .banner .banner-img{
+        display: none;
+    }
+    .travel-asian h1:before{
+        font-size: 95px;
+    }
+    .travel-asian h1:after{
+        top: 52px;
+    }
+    .travel-asian hr, .travel-spain hr, .travel-peru hr{
+        width: 10%;
+    }
+    .banner .sign-main-img{
+        max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+    header #mob-nav-bar #menu{
+        right: 35px;
+    }
+    .banner .sign-main-img{
+        display: block;
+    }
+    header .logo-img{
+        margin-left: 10px;
+        margin-top: 27px;
+    }
+    .banner .travel-info .travel-data{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .travel-data .travel-para{
+        font-size: 24px;
+    }
+
+    .travel-sign-form{
+        width: 65%;
+        margin-right: 20%;
+    }
+    .travel-spain::after{
+        margin-left: 42% !important;
+    }
+    .travel-home{
+        height: 880px !important;
+    }
+    .travel-data .travel-h3{
+        font-size: 46px;
+    }
+    .travel-data .travel-btn{
+        font-size: 22px;
+        margin: 5% 28%;
+    }
+    .travel-data .travel-go-img{
+        display: none;
+    }
+    .travel-data .travel-para2{
+        display: none;
+    }
+    .travel-sign-form{
+        margin-bottom: 10%;
+    }
+    .sign-circle{
+        display: block;
+        bottom: 0px;
+    }
+    .travel-data .travel-btn{
+        margin-top: 50px;
+    }
+    .travel-asian .travel-span-asian{
+        font-size: 64px;
+        padding-left: 0%;
+    }
+    .travel-asian .travel-h4-asian{
+        font-size: 26px;
+        /* margin-left: -21%; */
+        margin-top: 55px;
+        /* width: 70%; */
+    }
+    .japan-right-icon{
+        display: none;
+    }
+    .japan-left-icon{
+        display: none;
+    }
+  
+    .travel-asian .travel-icon-asian{
+        /* margin-left: 37%; */
+        display: none;
+    }
+    .travel-asian::after {
+        margin-left: 54%;
+        margin-top: 2%;
+        width: 7%;
+    }
+    .travel-spain .travel-icon-spain{
+        display: none;
+    }
+    /* #travel-home{
+        height: 715px;
+    } */
+    .travel-asian .travel-h4-love{
+        font-size: 28px;
+        margin-left: 10%;
+    }
+    .travel-asian .travel-span-paradise{
+        padding-left: 47%;
+        font-size: 75px;
+    }
+    /* #travel-home{
+        margin: 28% 3% 0%;
+    } */
+    /* .travel-data .travel-go-img{
+        margin-top: 49%;
+    } */
+    #travel-home .japan-para-info .travel-japan-info{
+        padding: 10% 4% 0% 2%;
+        font-size: 22px;
+        width: 100%;
+        position: initial;
+        color: #5d5d5d;
+    }
+    .travel-asian .travel-h4-love{
+        margin-top: 70px;
+    }
+    .travel-spain h1:after{
+        font-size: 72px;
+        top: -46px;
+    }
+    
+  
+    .travel-asian .travel-span-immtl{
+      padding-left: 36%;
+      font-size: 62px;
+    }
+    .travel-asian .travel-h4-peru{
+      font-size: 20px;
+      margin-left: 6%;
+    }
+    /* #container .travel-peru{
+        margin-top: 0;
+    } */
+    .japan-para-info .travel-spain-info{
+        padding: 10% 0% 10% 3% !important;
+    }
+    .spain-right-icon{
+        display: none;
+    }
+  
+    .travel-peru::after{
+        margin-top: 5%;
+        margin-left: 43%;
+    }
+    .japan-para-info .travel-peru-info{
+        padding: 10% 4% 0% 2% !important;
+    }
+    .spain-left-icon{
+        display: none;
+    }
+    .travel-banner2-go{
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .travel-banner2-go .travel-banner2-img{
+        width: 200px;
+        height: 200px;
+    }
+    .travel-banner2-info .travel-banner2-h4{
+        font-size: 18px;
+    }
+    .travel-peru h1::after{
+        top: -38px;
+        font-size: 60px;
+    }
+    .travel-peru h1{
+        font-size: 28px;
+    }
+    .travel-peru h1::before{
+        top: -34px;
+    }
+    .travel-banner2-info{
+        margin-top: 55%;
+        /* margin-left: 23%; */
+        text-align: center;
+    }
+    .travel-banner2-info .travel-btn{
+        margin-left: 31%;
+        font-size: 16px;
+        padding: 15px 45px;
+    }
+    .travel-slider-text{
+        left: 22%;
+    }
+    .footer-image-div .footer-mob-icon{
+        width: 100px;
+    }
+    .travel-banner2-info .travel-banner2-para{
+        color: #dfdfdf;
+    }
+    .footer-img{
+        display: none !important;
+    }
+    /* .footer-image-div .footer-fb2{
+        display: block;
+    } */
+    .footer-follow{
+        display: none !important;
+    }
+    footer .travel-footer-div .footer-para{
+        padding: 10px 42px !important;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .footer-tw{
+display: none !important;
+    }
+    .footer-instagram{
+        display: none !important;
+    }
+    .footer-google{
+        display: none !important;
+
+    }
+    .footer-pin{
+        display: none !important;
+    }
+    .footer-fb{
+        display: none !important;
+    }
+    .footer-tw{
+        display: none !important;
+    }
+   
+    .footer-image-div{
+        width: 100%;
+        padding: 15px 25%
+    }
+    .footer-image-div .footer-res-icon{
+        padding: 0 28px;
+    }
+
+    } 
+
+    /* 480px css code */
+  @media screen and (max-width: 639px) and (min-width: 480px){
+    header #navigation_bar {
+        display: none;
+    }
+    header .navbody {
+        display: none;
+    }
+    header #mob-nav-bar{
+        display: block;
+    }
+    header #mob-nav-bar #menu{
+        margin-top: -13%;
+    }
+    #menu span{
+        margin: 6px 0;
+        width: 38px;
+    }
+    header #mob-nav-bar #menu{
+        right: 25px;;
+    }
+    .banner .banner-img{
+        display: none;
+    }
+    .banner .travel-info .travel-data{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .banner .sign-main-img{
+        display: block;
+    }
+    .banner .sign-main-img{
+        max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+    /* .footer-mob-icon{
+        width: 85px;
+    } */
+    header .logo-img{
+        margin-left: 3px;
+        margin-top: 25px;
+    }
+    .travel-data .travel-para{
+        font-size: 20px;
+    }
+
+    .travel-sign-form{
+        width: 75%;
+        margin-right: 12%;
+    }
+    .sign-circle{
+        display: block;
+        bottom: -4px;
+    }
+    .travel-form .travel-form-div .travel-input{
+        margin-bottom: 45px;
+    }
+    .travel-data .travel-h3{
+        font-size: 42px;
+    }
+    .travel-data .travel-btn{
+        font-size: 22px;
+    }
+    .travel-data .travel-go-img{
+        display: none;
+    }
+    .travel-data .travel-para2{
+        display: none;
+    }
+    .travel-sign-form{
+        margin-bottom: 30%;
+    }
+    .travel-data .travel-btn{
+        /* margin-top: 50px;
+        margin-left: 42px; */
+        margin: 10% 18%;
+        padding: 15px 48px;
+    }
+    .travel-asian .travel-span-asian{
+        font-size: 62px;
+        padding-left: 3%;
+    }
+    .travel-asian .travel-h4-asian{
+        font-size: 22px;
+        margin-left: -25%;
+        margin-top: 55px;
+        width: 80%;
+    }
+    .japan-right-icon{
+        display: none;
+    }
+    .japan-left-icon{
+        display: none;
+    }
+  
+    .travel-asian .travel-icon-asian{
+        /* margin-left: 37%; */
+        display: none;
+    }
+    .travel-asian::after {
+        margin-left: 63%;
+    margin-top: 6%;
+    width: 10%;
+    }
+    .travel-spain::after{
+        margin-left: 45%;
+    }
+    .travel-spain .travel-icon-spain{
+        display: none;
+    }
+    /* #travel-home{
+        height: 600px;
+    } */
+    .travel-home{
+        height: 680px !important;
+    }
+    .travel-asian .travel-h4-love{
+        font-size: 24px;
+        margin-left: 7%;
+        margin-top: 56px;
+    }
+    .travel-asian .travel-span-paradise{
+        padding-left: 47%;
+        font-size: 54px;
+    }
+    .travel-banner2-info .travel-banner2-para{
+        color: #dcdcdc;
+    }
+    /* #travel-home{
+        margin: 28% 3% 0%;
+    } */
+    /* .travel-data .travel-go-img{
+        margin-top: 49%;
+    } */
+    #travel-home .japan-para-info .travel-japan-info{
+        padding: 10% 4% 0% 2%;
+        font-size: 16px;
+        width: 100%;
+        position: initial;
+    }
+    .travel-spain h1:after{
+        left: 74%;
+        top: -23px;
+        font-size: 40px;
+    }
+    .travel-spain h1{
+        font-size: 28px;
+    }
+    .travel-spain h1::before{
+        top: -30px;
+    }
+    .travel-peru h1:after{
+        left: 41%;
+    top: -23px;
+    font-size: 44px;
+    }
+    .travel-peru h1:before{
+        left: -65px;
+    top: -41px;
+    }
+    .travel-asian h1:before{
+        position: absolute;
+    
+    float: right;
+    right: -8%;
+    top: -47px;
+    font-size: 44px;
+    font-size: 62px;
+    z-index: -1;
+   
+    }
+    .travel-asian h1:after{
+        display: none;
+    }
+    /* .travel-asian h1{
+        font-size: 18px;
+    } */
+    .travel-asian hr, .travel-spain hr, .travel-peru hr {
+        width:10%;
+    }
+    .travel-peru{
+        margin-top: 0;
+    }
+    .travel-peru h1{
+        font-size: 20px;
+    }
+    .travel-asian .travel-h4-love{
+        margin-top: 50px;
+    }
+    .footer-mob-div .footer-mob-icon{
+        width: 90px;
+    }
+    .travel-footer-div .footer-botm-para{
+        font-size: 9px;
+    }
+    .travel-japan-info .japan-info-btn{
+        font-size: 15px;
+    }
+  
+    .travel-asian .travel-span-immtl{
+      padding-left: 36%;
+      font-size: 46px;
+    }
+    .travel-asian .travel-h4-peru{
+      font-size: 18px;
+      margin-left: 0%;
+      margin-top: 41px;
+      width: 90%;
+    }
+    /* #container .travel-peru{
+        margin-top: 0;
+    } */
+    .japan-para-info .travel-spain-info{
+        padding: 3% 0% 10% 5% !important;
+    }
+  
+    .travel-peru::after{
+        margin-top: 5%;
+        margin-left: 38%;
+    }
+    .japan-para-info .travel-peru-info{
+        padding: 10% 4% 0% 2% !important;
+    }
+    .travel-banner2-go{
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .travel-banner2-go .travel-banner2-img{
+        width: 150px;
+        height: 150px;
+    }
+    .travel-banner2-info .travel-banner2-h4{
+        font-size: 18px;
+    }
+    .travel-banner2-info{
+        margin-top: 60%;
+        /* margin-left: 23%; */
+        text-align: center;
+    }
+    .travel-banner2-info .travel-btn{
+        margin-left: 24%;
+        font-size: 16px;
+        padding: 15px 45px;
+    }
+    .travel-slider-text{
+        left: 22%;
+        font-size: 90px;
+    }
+    .footer-img{
+        display: none !important;
+    }
+    .footer-follow{
+        display: none !important;
+    }
+    footer .travel-footer-div .footer-para{
+        padding: 5px 25px !important;
+        font-size: 12px;
+        display: inline-block;
+    }
+    .footer-tw{
+display: none !important;
+    }
+    .footer-instagram{
+        display: none !important;
+    }
+    .footer-google{
+        display: none !important;
+
+    }
+    .footer-pin{
+        display: none !important;
+    }
+    .footer-fb{
+        display: none !important;
+    }
+    .footer-tw{
+        display: none !important;
+    }
+   
+    .footer-image-div{
+        width: 100%;
+        padding: 15px 20%;
+    }
+    .footer-image-div .footer-res-icon{
+        padding: 0 16px;
+    }
+
+    } 
+
+
+    /* 320px css code */
+  @media screen and (max-width: 479px) and (min-width: 320px){
+
+    header #mob-nav-bar{
+        display: block;
+    }
+header .logo-img{
+    max-width: 130px;;
+}
+    header #mob-nav-bar #menu{
+        margin-top: -19%;
+    }
+    #menu span{
+        margin: 10px 0;
+        width: 42px;
+    }
+    .banner .sign-main-img{
+        display: block;
+    }
+    .banner .travel-info .travel-data{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .banner .sign-main-img{
+        max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+    .banner .banner-img{
+        display: none;
+    }
+    header .logo-img{
+        margin-left: 5px;
+        margin-top: 33px;
+    }
+    .travel-spain h1:after{
+        left: 56%;
+        top: -23px;
+        font-size: 35px;
+    }
+    .travel-spain h1{
+        font-size: 20px;
+    }
+    .travel-spain h1::before{
+        top: -36px;
+        left: -53px;
+    }
+    .travel-peru h1:after{
+        left: 41%;
+        top: -16px;
+        font-size: 28px;
+    }
+    .spain-right-icon{
+        display: none;
+    }
+    .spain-left-icon{
+        display: none;
+    }
+    .travel-peru h1:before{
+        left: -62px;
+    top: -41px;
+    }
+    .travel-asian h1:before{
+        position: absolute;
+    
+    float: right;
+    right: 42%;
+    top: -34px;
+    font-size: 44px;
+    z-index: -1;
+   
+    }
+    .travel-asian h1:after{
+        display: none;
+    }
+    /* .travel-asian h1{
+        font-size: 18px;
+    } */
+    .travel-asian hr, .travel-spain hr, .travel-peru hr {
+        width:10%;
+    }
+    .travel-peru{
+        margin-top: 0;
+    }
+    .travel-peru h1{
+        font-size: 12px;
+    }
+    .travel-data .travel-para{
+        font-size: 13px;
+    }
+
+    .travel-sign-form{
+        width: 75%;
+        margin-right: 6%;
+    }
+    .travel-data .travel-h3{
+        font-size: 26px;
+    }
+    .travel-data .travel-btn{
+        font-size: 22px;
+    }
+    .travel-data .travel-go-img{
+        display: none;
+    }
+    .travel-data .travel-para2{
+        display: none;
+    }
+    .travel-sign-form{
+        margin-bottom: 47%;
+        width: 90%;
+    }
+    .sign-circle{
+        display: block;
+    }
+    .travel-asian{
+        padding: 3% 0%;
+    }
+    .travel-data .travel-btn{
+        margin-top: 50px;
+        /* margin-left: 42px; */
+        margin: 13% 8%;
+        padding: 15px 28px;
+    }
+    .travel-asian .travel-span-asian{
+        font-size: 54px;
+        padding-left: 3%;
+    }
+    .travel-asian .travel-h4-asian{
+        font-size: 18px;
+   
+    margin-top: 47px;
+    width: 100%;
+    /* left: 40%; */
+    }
+    .japan-right-icon{
+        display: none;
+    }
+    .japan-left-icon{
+        display: none;
+    }
+  
+    .travel-asian .travel-icon-asian{
+        /* margin-left: 37%; */
+        display: none;
+    }
+    .travel-asian::after {
+        margin-left: 55%;
+    margin-top: 6%;
+    width: 10%;
+    }
+    .travel-spain .travel-icon-spain{
+        display: none;
+    }
+    /* #travel-home{
+        height: 470px;
+    } */
+    .travel-spain::after{
+        margin-left: 40%;
+    }
+    .travel-home{
+        height: 538px !important;
+    }
+    .travel-asian .travel-h4-love{
+        font-size: 28px;
+        margin-left: 7%;
+        margin-top: 56px;
+    }
+    .travel-asian .travel-span-paradise{
+        padding-left: 48%;
+        font-size: 40px;
+    }
+    /* #travel-home{
+        margin: 28% 3% 0%;
+    } */
+    /* .travel-data .travel-go-img{
+        margin-top: 49%;
+    } */
+    #travel-home .japan-para-info .travel-japan-info{
+        padding: 10% 4% 28% 2%;
+        font-size: 12px;
+        width: 100%;
+        position: initial;
+    }
+    .travel-japan-info .japan-info-btn{
+        font-size: 14px;
+    }
+    .travel-asian .travel-h4-love{
+        margin-top: 39px;
+        font-size: 16px;
+        left: 2% !important;
+        width: 100%;
+
+    }
+    
+  
+    .travel-asian .travel-span-immtl{
+      padding-left: 29%;
+      font-size: 32px;
+    }
+    .travel-asian .travel-h4-peru{
+      font-size: 14px;
+      margin-left: 0%;
+      margin-top: 26px;
+      width: 100%;
+      left: -5% !important;
+    }
+    .travel-banner2-info .travel-banner2-para{
+        color: #dcdcdc;
+        font-size: 12px;
+    }
+    /* #container .travel-peru{
+        margin-top: 0;
+    } */
+    .japan-para-info .travel-spain-info{
+        padding: 3% 0% 10% 0% !important;
+    }
+  
+    .travel-peru::after{
+        margin-top: 5%;
+        margin-left: 43%;
+    }
+    .japan-para-info .travel-peru-info{
+        padding: 10% 4% 28% 2% !important;
+    }
+    .travel-banner2-go{
+        margin-left: 23%;
+        margin-top: 35%;
+    }
+    .travel-banner2-go .travel-banner2-img{
+        width: 150px;
+        height: 150px;
+    }
+    .travel-banner2-info .travel-banner2-h4{
+        font-size: 15px;
+    }
+    .travel-banner2-info{
+        margin-top: 100%;
+        /* margin-left: 23%; */
+        text-align: center;
+    }
+    .travel-banner2-info .travel-btn{
+        margin-left: 10%;
+        font-size: 16px;
+        padding: 15px 45px;
+        columns: #e1e1e1;
+    }
+    .travel-slider-text{
+        left: 20%;
+        font-size: 68px;
+    }
+    .footer-img{
+        display: none !important;
+    }
+    .footer-follow{
+        display: none !important;
+    }
+    footer .travel-footer-div .footer-para{
+        padding: 0px 10px !important;
+    font-size: 12px;
+    display: inline-block;
+    }
+    .footer-tw{
+display: none !important;
+    }
+    .footer-instagram{
+        display: none !important;
+    }
+    .footer-google{
+        display: none !important;
+
+    }
+    .footer-pin{
+        display: none !important;
+    }
+    .footer-fb{
+        display: none !important;
+    }
+    .footer-tw{
+        display: none !important;
+    }
+   
+    .footer-image-div{
+        width: 100%;
+        padding: 15px 17%;
+    }
+    .footer-image-div .footer-res-icon{
+        padding: 0 10px;
+        width: 65px;
+    }
+    .travel-footer-div .footer-botm-para{
+        font-size: 10px;
+    }
+
+    } 
+  
+    /* 300px css code */
+  @media screen and (max-width: 320px) and (min-width: 300px){
+      header #navigation_bar{
+          display: none;
+      }
+
+    header #mob-nav-bar{
+        display: block;
+    }
+    header #mob-nav-bar #menu{
+        margin-top: -16%;
+        right: 16px;
+    }
+    header .logo-img{
+        max-width: 130px;;
+    }
+    #menu span{
+        margin: 8px 0;
+        width: 38px;
+    }
+    .banner .sign-main-img{
+        display: block;
+    }
+    .banner .travel-info .travel-data{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .banner .sign-main-img{
+        max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+    .banner .banner-img{
+        display: none;
+    }
+    header .logo-img{
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+    .travel-spain h1:after{
+        left: 62%;
+        top: -23px;
+        font-size: 30px;
+    }
+    .travel-spain h1{
+        font-size: 20px;
+    }
+    .travel-spain h1::before{
+        top: -36px;
+        left: -53px;
+    }
+    .travel-peru h1:after{
+        left: 41%;
+        top: -16px;
+        font-size: 28px;
+    }
+    .spain-right-icon{
+        display: none;
+    }
+    .spain-left-icon{
+        display: none;
+    }
+    .travel-peru h1:before{
+        left: -62px;
+    top: -41px;
+    }
+    .travel-asian h1:before{
+        position: absolute;
+    
+    float: right;
+    right: 42%;
+    top: -34px;
+    font-size: 44px;
+    z-index: -1;
+   
+    }
+    .travel-asian h1:after{
+        display: none;
+    }
+    /* .travel-asian h1{
+        font-size: 18px;
+    } */
+    .travel-asian hr, .travel-spain hr, .travel-peru hr {
+        width:10%;
+    }
+    .travel-peru{
+        margin-top: 0;
+    }
+    .travel-peru h1{
+        font-size: 12px;
+    }
+    .travel-data .travel-para{
+        font-size: 12px;
+    }
+
+    .travel-sign-form{
+        width: 75%;
+        margin-right: 6%;
+    }
+    .travel-data .travel-h3{
+        font-size: 26px;
+    }
+    .travel-data .travel-btn{
+        font-size: 18px;
+    }
+    .travel-data .travel-go-img{
+        display: none;
+    }
+    .travel-data .travel-para2{
+        display: none;
+    }
+    .travel-sign-form{
+        margin-bottom: 47%;
+        width: 90%;
+    }
+    .sign-circle{
+        display: block;
+    }
+    .travel-asian{
+        padding: 3% 0%;
+    }
+    .travel-data .travel-btn{
+        margin-top: 50px;
+        /* margin-left: 42px; */
+        margin: 13% 12%;
+        padding: 15px 28px;
+    }
+    .travel-asian .travel-span-asian{
+        font-size: 54px;
+        padding-left: 3%;
+    }
+    .travel-asian .travel-h4-asian{
+        font-size: 18px;
+    /* margin-left: -22%; */
+    margin-top: 47px;
+    width: 100%;
+    /* left: 40%; */
+    }
+    .japan-right-icon{
+        display: none;
+    }
+    .japan-left-icon{
+        display: none;
+    }
+  
+    .travel-asian .travel-icon-asian{
+        /* margin-left: 37%; */
+        display: none;
+    }
+    .travel-asian::after {
+        margin-left: 55%;
+    margin-top: 6%;
+    width: 10%;
+    }
+    .travel-spain .travel-icon-spain{
+        display: none;
+    }
+    .travel-spain{
+        margin-top: 0;
+    }
+    /* #travel-home{
+        height: 470px;
+    } */
+    .travel-spain::after{
+        margin-left: 32%;
+    }
+    .travel-home{
+        height: 538px !important;
+    }
+    .travel-asian .travel-h4-love{
+        font-size: 28px;
+        margin-left: 7%;
+        margin-top: 56px;
+    }
+    .travel-asian .travel-span-paradise{
+        padding-left: 46%;
+        font-size: 40px;
+    }
+    /* #travel-home{
+        margin: 28% 3% 0%;
+    } */
+    /* .travel-data .travel-go-img{
+        margin-top: 49%;
+    } */
+    #travel-home .japan-para-info .travel-japan-info{
+        padding: 10% 4% 20% 2%;
+        font-size: 12px;
+        width: 100%;
+        position: initial;
+    }
+    .travel-japan-info .japan-info-btn{
+        font-size: 14px;
+    }
+    .travel-asian .travel-h4-love{
+        margin-top: 39px;
+        font-size: 16px;
+        left: 2% !important;
+        width: 100%;
+
+    }
+    
+  
+    .travel-asian .travel-span-immtl{
+      padding-left: 29%;
+      font-size: 32px;
+    }
+    .travel-asian .travel-h4-peru{
+      font-size: 14px;
+      margin-left: 0%;
+      margin-top: 26px;
+      width: 100%;
+      left: -5% !important;
+    }
+    .travel-banner2-info .travel-banner2-para{
+        color: #dcdcdc;
+        font-size: 12px;
+    }
+    /* #container .travel-peru{
+        margin-top: 0;
+    } */
+    .japan-para-info .travel-spain-info{
+        padding: 3% 0% 10% 0% !important;
+    }
+  
+    .travel-peru::after{
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    .japan-para-info .travel-peru-info{
+        padding: 10% 4% 20% 2% !important;
+    }
+    .travel-banner2-go{
+        margin-left: 23%;
+        margin-top: 35%;
+    }
+    .travel-banner2-go .travel-banner2-img{
+        width: 150px;
+        height: 150px;
+    }
+    .travel-banner2-info .travel-banner2-h4{
+        font-size: 14px;
+    }
+    .travel-banner2-info{
+        margin-top: 100%;
+        /* margin-left: 23%; */
+        text-align: center;
+    }
+    .travel-banner2-info .travel-btn{
+        margin-left: 10%;
+        font-size: 16px;
+        padding: 15px 40px;
+        columns: #e1e1e1;
+    }
+    .travel-slider-text{
+        left: 20%;
+        font-size: 56px;
+    }
+    .footer-img{
+        display: none !important;
+    }
+    .footer-follow{
+        display: none !important;
+    }
+    footer .travel-footer-div .footer-para{
+        padding: 0px 10px !important;
+    font-size: 11px;
+    display: inline-block;
+    }
+    .footer-tw{
+display: none !important;
+    }
+    .footer-instagram{
+        display: none !important;
+    }
+    .footer-google{
+        display: none !important;
+
+    }
+    .footer-pin{
+        display: none !important;
+    }
+    .footer-fb{
+        display: none !important;
+    }
+    .footer-tw{
+        display: none !important;
+    }
+   
+    .footer-image-div{
+        width: 100%;
+        padding: 15px 16%;
+    }
+    .footer-image-div .footer-res-icon{
+        padding: 0 10px;
+        width: 65px;
+    }
+    .travel-footer-div .footer-botm-para{
+        font-size: 10px;
+    }
+
+    } 
+
+   
+  
+  
+
+
+

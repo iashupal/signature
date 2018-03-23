@@ -745,6 +745,11 @@ color: #4593d6;
    .travel-asian{
        padding: 3% 10%;
    }
+   .travel-peru h1:after{
+    top: -52px;
+    bottom: 0;
+    font-size: 92px;
+   }
    .travel-spain{
        padding: 3% 10%;
    }
@@ -927,6 +932,7 @@ color: #4593d6;
   }
   .travel-sign-form{
       width: 75%;
+      margin-top: 21%;
   }
   header .logo-img{
       margin-left: 30px;
@@ -1636,11 +1642,15 @@ display: none !important;
     header #mob-nav-bar{
         display: block;
     }
+    header #navigation_bar{
+        display: none;
+    }
 header .logo-img{
     max-width: 130px;;
 }
     header #mob-nav-bar #menu{
-        margin-top: -19%;
+        margin-top: -16%;
+        right: 23px;
     }
     #menu span{
         margin: 10px 0;
@@ -1664,7 +1674,7 @@ header .logo-img{
     }
     header .logo-img{
         margin-left: 5px;
-        margin-top: 33px;
+        margin-top: 22px;
     }
     .travel-spain h1:after{
         left: 56%;
@@ -1730,7 +1740,7 @@ header .logo-img{
         font-size: 26px;
     }
     .travel-data .travel-btn{
-        font-size: 22px;
+        font-size: 18px;
     }
     .travel-data .travel-go-img{
         display: none;
@@ -1751,7 +1761,7 @@ header .logo-img{
     .travel-data .travel-btn{
         margin-top: 50px;
         /* margin-left: 42px; */
-        margin: 13% 8%;
+        margin: 13% 14%;
         padding: 15px 28px;
     }
     .travel-asian .travel-span-asian{
@@ -1790,8 +1800,12 @@ header .logo-img{
     .travel-spain::after{
         margin-left: 40%;
     }
-    .travel-home{
+    /* .travel-home{
         height: 538px !important;
+    } */
+    .travel-spain{
+        margin-top: 40px;
+        margin-bottom: 0;
     }
     .travel-asian .travel-h4-love{
         font-size: 28px;
@@ -1809,7 +1823,7 @@ header .logo-img{
         margin-top: 49%;
     } */
     #travel-home .japan-para-info .travel-japan-info{
-        padding: 10% 4% 28% 2%;
+        padding: 10% 4% 0% 2%;
         font-size: 12px;
         width: 100%;
         position: initial;
@@ -1845,7 +1859,7 @@ header .logo-img{
         margin-top: 0;
     } */
     .japan-para-info .travel-spain-info{
-        padding: 3% 0% 10% 0% !important;
+        padding: 10% 0% 10% 0% !important;
     }
   
     .travel-peru::after{
@@ -1853,7 +1867,7 @@ header .logo-img{
         margin-left: 43%;
     }
     .japan-para-info .travel-peru-info{
-        padding: 10% 4% 28% 2% !important;
+        padding: 10% 4% 10% 2% !important;
     }
     .travel-banner2-go{
         margin-left: 23%;
@@ -2148,7 +2162,7 @@ display: none !important;
         margin-top: 0;
     } */
     .japan-para-info .travel-spain-info{
-        padding: 3% 0% 10% 0% !important;
+        padding: 10% 0% 10% 0% !important;
     }
   
     .travel-peru::after{
